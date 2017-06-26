@@ -1,3 +1,4 @@
+
 <html>
 <head>
 	<title>Test Forum</title>
@@ -42,5 +43,12 @@
 </ul>
 </div>
 
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/default.js"></script>
+
 </body>
 </html>
+ 
+
+
+
