@@ -12,12 +12,16 @@
 	<span>Test Forum</span>
 </header>
 
-<main>
-	<h1>Kurniadi Ahmad Wijaya</h1>
-	<h1>Ahmad Hasib Haidar</h1>
-	<h1>Diva Mujaddidi</h1>
+<nav class="navbar">
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</nav>
 
-	<h1> Hello World </h1>
+<main>
+	
 </main>
 
 <script src="assets/js/jquery.min.js"></script>
