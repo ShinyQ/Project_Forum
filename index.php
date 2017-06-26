@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 <html>
 <head>
 	<title>Test Forum</title>
@@ -20,4 +19,4 @@
 
 </body>
 </html>
->>>>>>> c9790341c6ab6f96a17e05d9615f7ea1ed040091
+
