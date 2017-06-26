@@ -1,14 +1,5 @@
-.awal{
-	width:99.25%;
-	height:22%;
-	background-color:#f7f7f7;
-	position:absolute;
-	left: 0;
-    right: 0;
-    top: 0; 
-    bottom: 0;
-	padding-left: 10px;
-	border-bottom: 6px solid red;
+header{
+	
 }
 
 .navbar {
@@ -17,20 +8,13 @@
 
 .navbar ul {
     list-style-type: none;
-	position:absolute;
-	left:0;
-	right:0;
     overflow: hidden;
-    background-color: #333;
-    border-bottom: 5px solid red;
-	margin-top: -4px;
+    background-color: limegreen;
 	padding: 0;
 }
 
 .navbar li {
     float: left;
-	
-
 }
 
 .navbar li a {
