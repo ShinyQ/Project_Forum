@@ -7,7 +7,6 @@
 
 <body> 
 
-<<<<<<< HEAD
 <header>
 	<span>Test Forum</span>
 </header>
@@ -19,8 +18,6 @@
 
 	<h1> Hello World </h1>
 </main>
-=======
->>>>>>> d0b0ce375dc7ccab9d1e97ff6fc13f36d49f7c1f
 
 </body>
 </html>
