@@ -1,73 +1,115 @@
-.awal{
-	width:99.25%;
-	height:22%;
-	background-color:#f7f7f7;
-	position:absolute;
-	left: 0;
-    right: 0;
-    top: 0; 
-    bottom: 0;
-	padding-left: 10px;
-	border-bottom: 6px solid red;
+@font-face{
+    font-family: Nexa Bold;
+    src: url("../fonts/nexa/Nexa Bold.otf");
+}
+@font-face{
+    font-family: Nexa Light;
+    src: url("../fonts/nexa/Nexa Light.otf");
+}
+@font-face{
+    font-family: American Captain;
+    src:url("../fonts/American Captain.ttf");
 }
 
-.navbar {
-	margin-top:10%;
+header{
+    padding:24px;
+    font-size:1.3em;
+    font-family:Nexa Bold;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index:1000;
+}
+#header-button{
+    position:absolute;
+    top:16px;
+    right:32px;
+    padding:0;
+}
+#header-button button{
+    color:#707070;
+    border:none;
+    outline:none;
+    border-radius:100px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -o-border-radius:100px;
+    margin-right:6px;
 }
 
-.navbar ul {
-    list-style-type: none;
-	position:absolute;
-	left:0;
-	right:0;
-    overflow: hidden;
-    background-color: #333;
-    border-bottom: 5px solid red;
-	margin-top: -4px;
-	padding: 0;
+#setting-button{
+    padding:6px 14px;
+}
+#user-button, #user-button-close{
+    padding:6px 14px;
+}
+#user-button-close{
+    display:none;
+}
+#search-button{
+    padding:6px 12px;
+}
+#header-button button:hover{
+    background-color:rgba(0,0,0,0.1);
 }
 
-.navbar li {
-    float: left;
-	
-
+#user-menu{
+    display:none;
+    position:fixed;
+    top:10.25%;
+    right:7.5%;
+    width:15%;
+    padding:0;
+    z-index:1000;
+}
+#user-menu button{
+    width:100%;
+    padding:12px 16px;
+    color:#404040;
+    text-align:left;
+    font-family:roboto;
+    font-size:0.9em;
+    border:none;
+    outline:none;
 }
 
-.navbar li a {
-    display: block;
-    font-family: fontawesome;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    padding: 20px 25px 20px 25px; 
-    text-decoration: none;
-}
-.navbar li  span {
-    display: block;
-    font-family: fontawesome;
-    font-size: 10px;
-    color: white;
-    text-align: center;
-    padding: 16px ;
-    text-decoration: none;
-
-
+#border{
+    margin-top:80px;
 }
 
-.navbar li span:hover {
-    color: aqua;
+#navbar {
 }
 
-.navbar li a:hover {
-    background-color: red;
+#navbar button{
+    font-family:roboto;
+    font-size: 1.1em;
+    color: limegreen;
+    border:none;
+    outline:none;
 }
 
-li a.active {
-    background-color: red;
-    color: white;
+#container{
+    
+}
+#side-menu{
+    padding:0;
+}
+#side-menu button{
+    width:100%;
+    border:none;
+    outline:none;
+    font-size:1.4em;
+    padding:28px;
 }
 
-li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+#content{
+    white-space:nowrap;
+    overflow-y:auto;
+    text-align:center;
+    padding:32px;
+}
+#content div{
+    width:80%;
+    margin-bottom:32px;
 }
