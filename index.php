@@ -11,6 +11,7 @@ if(!isset($_SESSION['username'])){?>
 	<link rel="stylesheet" href="assets/fa/css/font-awesome.min.css">
 </head>
 <body>Ini halaman sebelum login<br><a href="login.php">Login</a>
+
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/materialize/js/materialize.min.js"></script>
 	<script src="assets/js/index.js"></script>
@@ -18,4 +19,4 @@ if(!isset($_SESSION['username'])){?>
 </html>
 <?php }else{
 	header("location: home.php");
-}?>
+}?> 
