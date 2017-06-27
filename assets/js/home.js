@@ -9,4 +9,7 @@ $(document).ready(function(){
 		$("#user-button").css("display", "inline");
 		$("#user-button-close").css("display", "none");
 	});
+	$("#logout-link").click(function(){
+		window.location.href = "logout.php";
+	});
 });
