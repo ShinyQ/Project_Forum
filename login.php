@@ -20,8 +20,8 @@ if(isset($_SESSION['username'])){
 			<input type="password" name="password" id="password" placeholder="&#xf023;&nbsp;&nbsp;Password">
 			<input type="submit" name="submit" id="submit" value="Login" class="btn">
 			<button class="btn white teal-text" id="process-animation"><i class="fa fa-spin fa-circle-o-notch"></i>&nbsp;&nbsp;Processing..</button>
-			<div id="error-notif" class="white red-text z-depth-1">Login Failed</div>
-			<div id="error-notif2" class="white red-text z-depth-1">Username or Password not Found</div>
+			<div id="error-notif" class="white red-text z-depth-1">Login Gagal</div>
+			<div id="error-notif2" class="white red-text z-depth-1">Username Atau Password Belum Terdaftar</div>
 			<a href="resetpass.php" target="_blank" id="resetpass-link">Reset Password</a>
 			<div id="redirecting-animation" class="teal-text"><i class="fa fa-spin fa-circle-o-notch"></i>&nbsp;&nbsp;Redirecting..</div>
 		</form>

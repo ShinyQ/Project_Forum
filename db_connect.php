@@ -1,2 +1,2 @@
 <?php
-$dbc = mysqli_connect("localhost", "root", "", "forumproject");
+$dbc = mysqli_connect("localhost", "root", "", "admin");

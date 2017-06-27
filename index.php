@@ -1,22 +1,31 @@
 <?php
-session_start();
-if(!isset($_SESSION['username'])){?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Test Forum</title>
-	<meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=1">
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="assets/materialize/css/materialize.min.css">
-	<link rel="stylesheet" href="assets/fa/css/font-awesome.min.css">
-</head>
-<body>Ini halaman sebelum login<br><a href="login.php">Login</a>
+include "header.php"; 
+?>
+<div class="col l9 z-depth-1" id="content">
+			<div class="card-panel">
 
+			</div>
+			<div class="card-panel">
+
+			</div>
+			<div class="card-panel">
+
+			</div>
+			<div class="card-panel">
+
+			</div>
+			<div class="card-panel">
+
+			</div>
+		</div>
+		
+	</div>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/materialize/js/materialize.min.js"></script>
-	<script src="assets/js/index.js"></script>
+	<script src="assets/js/default.js"></script>
 </body>
+
 </html>
-<?php }else{
-	header("location: home.php");
-}?> 
+<?php
+}
+?>

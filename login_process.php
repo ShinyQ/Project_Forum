@@ -11,5 +11,5 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 		echo "error";
 	}
 }else{
-	header("location:login.php");
+	header("location:index.php");
 }

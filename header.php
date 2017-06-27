@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!isset($_SESSION['username'])){
+	header("location: login.php ");
+}
+else{
+	?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,3 +42,4 @@
 			<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-bookmark"></i></button>
 			<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-group"></i></button>
 		</div>
+		
