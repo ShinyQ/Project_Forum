@@ -22,6 +22,6 @@ Halaman Admin ( Sisi Back End (Sql) )
 - Hapus Profil User ( Id User )
 - Edit Profil Admin (Nama Alamat Foto No.Telp, dll)( Id Admin )
 
-Crud (Create Read Update Edit) Sisi User ( Back End (Sql) )
-- Edit Profil Yg terdiri dari (Nama , No Telp , Foto Dll)
-- Daftar Dan Login
+Crud (Create Read Update Edit) Sisi User ( Back End (Sql) ) {DONE}
+- Edit Profil Yg terdiri dari (Nama , No Telp , Foto Dll) {DONE}
+- Daftar Dan Login {DONE}
