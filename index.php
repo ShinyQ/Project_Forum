@@ -1,5 +1,10 @@
 <?php
-include "header.php"; 
+session_start();
+if(!isset($_SESSION['username'])){
+	header("location: login.php ");
+}
+else{
+	include "header.php";
 ?>
 <div class="col l9 z-depth-1" id="content">
 			<div class="card-panel">
@@ -25,7 +30,4 @@ include "header.php";
 	<script src="assets/js/default.js"></script>
 </body>
 
-</html>
-<?php
-}
-?>
+</html><?php }?>
