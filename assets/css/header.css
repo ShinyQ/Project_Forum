@@ -94,6 +94,7 @@ header{
 }
 #side-menu{
     padding:0;
+    position:fixed
 }
 #side-menu button{
     width:100%;
@@ -101,6 +102,7 @@ header{
     outline:none;
     font-size:1.4em;
     padding:28px;
+	
 }
 
 #content{
@@ -108,6 +110,7 @@ header{
     overflow-y:auto;
     text-align:center;
     padding:32px;
+	margin-left:8%;
 }
 #content div{
     width:80%;
