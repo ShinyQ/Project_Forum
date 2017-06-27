@@ -1,0 +1,15 @@
+List Yg Harus Dibuat : ( Silahkan Tambahkan Ide Kalian )
+
+Homepage 
+- Header ( Logo , Nama Situs , Slogan(Tdk Harus) )
+- Navbar ( Halaman Lihat Profil , Halaman Tentang web , etc(Masih Dipikirkan)
+- Sidebar ( Menampilkan Sebagian Profil User -> (kurniadi) )
+- Content
+- Footer
+
+Content Forum ( Sebelum Di Klik User / Saat Dilihat ) Sisi Back End (Sql)
+- Berisi Judul Topik 
+- Tanggal
+- Jumlah Reply (Yg sudah Komen)
+- TS (Thread Starter) Nama Pembuat Thread 
+- Foto TS 
