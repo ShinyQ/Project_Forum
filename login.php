@@ -1,12 +1,12 @@
 <?php
 session_start();
 if(isset($_SESSION['username'])){
-	header("location: home.php");
+	header("location: index.php");
 }else{?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login - Test Forum</title>
+	<title>Login Admin - Test Forum</title>
 	<meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=1">
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="assets/materialize/css/materialize.min.css">

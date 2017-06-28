@@ -22,17 +22,19 @@
 			<button class="white waves-effect">Profile</button>
 			<button class="white waves-effect">Friends</button>
 			<button class="white waves-effect">Groups</button>
-			<button class="white waves-effect">Log Out</button>
+			<button class="white waves-effect" >Log Out</button>
 		</div>
 	</header>
 	<div id="border"></div>
 	<div class="row" id="container">
 		<div class="col l1 z-depth-1" id="side-menu">
-			<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-home"></i></button>
-			<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-comment"></i></button>
-			<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-envelope"></i></button>
-			<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-globe"></i></button>
-			<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-bookmark"></i></button>
-			<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-group"></i></button>
+			
+<button class="white teal-text waves-effect z-depth-2" onclick="location.href='index.php'"><i class="fa fa-home"></i></a></button>
+<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-comment"></i></button>
+<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-envelope"></i></button>
+<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-globe"></i></button>
+<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-bookmark"></i></button>
+<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-group"></i></button>
+		
 		</div>
 		
