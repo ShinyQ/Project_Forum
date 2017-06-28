@@ -27,7 +27,7 @@ else{
 	</div>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/materialize/js/materialize.min.js"></script>
-	<script src="assets/js/default.js"></script>
+	<script src="assets/js/index.js"></script>
 </body>
 
 </html><?php }?>
