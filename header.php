@@ -22,19 +22,20 @@
 			<button class="white waves-effect">Profile</button>
 			<button class="white waves-effect">Friends</button>
 			<button class="white waves-effect">Groups</button>
-			<button class="white waves-effect" >Log Out</button>
+			<button class="white waves-effect" id="logout-link">Log Out</button>
+
 		</div>
 	</header>
 	<div id="border"></div>
 	<div class="row" id="container">
 		<div class="col l1 z-depth-1" id="side-menu">
-			
-<button class="white teal-text waves-effect z-depth-2" onclick="location.href='index.php'"><i class="fa fa-home"></i></a></button>
-<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-comment"></i></button>
-<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-envelope"></i></button>
-<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-globe"></i></button>
-<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-bookmark"></i></button>
-<button class="white teal-text waves-effect z-depth-2"><i class="fa fa-group"></i></button>
-		
+
+			<button class="white teal-text waves-effect z-depth-2 hoverable" id="home-btn"><i class="fa fa-home"></i><span class="sidemenu-tooltip" id="homebtn-tooltip">Home</span></button>
+			<button class="white teal-text waves-effect z-depth-2 hoverable" id="discus-btn"><i class="fa fa-comment"></i><span class="sidemenu-tooltip" id="discusbtn-tooltip">Diskusi</span></button>
+			<button class="white teal-text waves-effect z-depth-2 hoverable" id="msg-btn"><i class="fa fa-envelope"></i><span class="sidemenu-tooltip" id="msgbtn-tooltip">Pesan</span></button>
+			<button class="white teal-text waves-effect z-depth-2 hoverable" id="notif-btn"><i class="fa fa-globe"></i><span class="sidemenu-tooltip" id="notifbtn-tooltip">Pemberitahuan</span></button>
+			<button class="white teal-text waves-effect z-depth-2 hoverable" id="bookmark-btn"><i class="fa fa-bookmark"></i><span class="sidemenu-tooltip" id="bookmarkbtn-tooltip">Bookmark</span></button>
+			<button class="white teal-text waves-effect z-depth-2 hoverable" id="group-btn"><i class="fa fa-group"></i><span class="sidemenu-tooltip" id="groupbtn-tooltip">Grup</span></button>
+
 		</div>
 		
