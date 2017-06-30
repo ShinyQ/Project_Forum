@@ -1,0 +1,122 @@
+@font-face{
+    font-family: Nexa Bold;
+    src: url("../fonts/nexa/Nexa Bold.otf");
+}
+@font-face{
+    font-family: Nexa Light;
+    src: url("../fonts/nexa/Nexa Light.otf");
+}
+@font-face{
+    font-family: American Captain;
+    src:url("../fonts/American Captain.ttf");
+}
+
+header{
+    padding:24px;
+    font-size:1.3em;
+    font-family:Nexa Bold;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index:1000;
+}
+#header-button{
+    position:absolute;
+    top:16px;
+    right:32px;
+    padding:0;
+}
+#header-button button{
+    color:#707070;
+    border:none;
+    outline:none;
+    border-radius:100px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -o-border-radius:100px;
+    margin-right:6px;
+}
+
+#setting-button{
+    padding:6px 14px;
+}
+#user-button, #user-button-close{
+    padding:6px 14px;
+}
+#user-button-close{
+    display:none;
+}
+#search-button{
+    padding:6px 12px;
+}
+#header-button button:hover{
+    background-color:rgba(0,0,0,0.1);
+}
+
+#user-menu{
+    display:none;
+    position:fixed;
+    top:10.25%;
+    right:7.5%;
+    width:15%;
+    padding:0;
+    z-index:1000;
+}
+#user-menu button{
+    width:100%;
+    padding:12px 16px;
+    color:#404040;
+    text-align:left;
+    font-family:roboto;
+    font-size:0.9em;
+    border:none;
+    outline:none;
+}
+
+#border{
+    margin-top:80px;
+}
+
+#navbar {
+}
+
+#navbar button{
+    font-family:roboto;
+    font-size: 1.1em;
+    color: limegreen;
+    border:none;
+    outline:none;
+}
+
+#container{
+    
+}
+#side-menu{
+    padding:0;
+    position:fixed
+}
+#side-menu button{
+    width:100%;
+    border:none;
+    outline:none;
+    font-size:1.4em;
+    padding:28px;
+	
+}
+
+#content{
+    white-space:nowrap;
+    overflow-y:auto;
+    text-align:center;
+    padding:32px;
+	margin-left:39%;
+	width:23%;
+}
+#content div{
+    width:75%;
+}
+
+.Foto {
+	margin-left:30px;
+}
