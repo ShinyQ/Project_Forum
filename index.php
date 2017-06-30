@@ -11,7 +11,7 @@ else{
 
 			</div>
 			<div class="card-panel">
-
+			<a href="logout.php">LOGOUT</a>
 			</div>
 			<div class="card-panel">
 
