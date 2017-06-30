@@ -30,7 +30,7 @@
 	<div class="row" id="container">
 		<div class="col l1 z-depth-1" id="side-menu">
 
-			<button class="white teal-text waves-effect z-depth-2 hoverable" id="home-btn"><i class="fa fa-home"></i><span class="sidemenu-tooltip" id="homebtn-tooltip">Home</span></button>
+			<button onclick="window.location.href='index.php'"v class="white teal-text waves-effect z-depth-2 hoverable" id="home-btn"><i class="fa fa-home"></i><span class="sidemenu-tooltip" id="homebtn-tooltip">Home</span></button>
 			<button class="white teal-text waves-effect z-depth-2 hoverable" id="discus-btn"><i class="fa fa-comment"></i><span class="sidemenu-tooltip" id="discusbtn-tooltip">Diskusi</span></button>
 			<button class="white teal-text waves-effect z-depth-2 hoverable" id="msg-btn"><i class="fa fa-envelope"></i><span class="sidemenu-tooltip" id="msgbtn-tooltip">Pesan</span></button>
 			<button class="white teal-text waves-effect z-depth-2 hoverable" id="notif-btn"><i class="fa fa-globe"></i><span class="sidemenu-tooltip" id="notifbtn-tooltip">Pemberitahuan</span></button>
