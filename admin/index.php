@@ -22,7 +22,19 @@ include "header.php";
 			<br>
 			<div class="Foto" align="center">
 			<center>
-			<img src="assets/Foto/user.jpg" height="15%" width="101%"><br><br>
+			 <?php 
+		if($Data_Admin['Foto_Profil']==""){
+		echo "<img src='assets/Foto/user.jpg' border='1' width='185px' height='210px'>
+			  
+			  ";
+		}
+
+		else {
+		?>
+	
+<img src="Picture/<?php echo $Data_Admin['Foto_Profil'];?>" width="200px" height="180px" />
+
+		<?php }?><br><br>
 			</center>
 			<strong>
 			<center>
@@ -34,7 +46,8 @@ include "header.php";
 			&nbsp;&nbsp;&nbsp;[<?php echo $Data_Admin['Username'];?>]<br>
 			<center>
 			<hr width="100%" color="#cbcfd6">
-			<a href="logout.php">&nbsp;&nbsp;&nbsp; Logout</a>
+			<a href="edit.php">Edit Profil</a> ||
+			<a href="logout.php">Logout</a>
 			</center>
 			
 			

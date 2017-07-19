@@ -16,6 +16,7 @@
 		 $_SESSION['Password']=$_POST['Password'];
 		 $_SESSION['Nama_Admin'] = $_POST['Nama_Admin'];
 	     $_SESSION['id_admin']=$Cek_Data['id_admin'];
+		
 		 
 		 $_SESSION['Login_Admin'] = true;
 		 header('Location:index.php');
