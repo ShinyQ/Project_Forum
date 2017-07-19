@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 30, 2017 at 05:06 PM
+-- Generation Time: Jul 19, 2017 at 04:29 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -40,7 +40,7 @@ CREATE TABLE `profil_admin` (
 --
 
 INSERT INTO `profil_admin` (`id_admin`, `Nama_Admin`, `Email`, `Username`, `Password`, `Foto_Profil`) VALUES
-(11131424, 'Kurniadi Ahmad Wijaya', 'kurniadiahmadwijaya@gmail.com', 'ShinyQ', 'administhebest', ''),
+(11131424, 'Kurniadi Ahmad Wijaya', 'kurniadiahmadwijaya@gmail.com', 'ShinyQ', 'administhebest', '20140145_1417228441696829_2389883581277949126_n.jpg'),
 (11131425, '', '', 'admin', 'admin', '');
 
 -- --------------------------------------------------------
