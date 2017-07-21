@@ -17,11 +17,11 @@ Content Forum ( Sebelum Di Klik User / Saat Dilihat ) Sisi Back End (Sql)
 Halaman Admin ( Sisi Back End (Sql) )
 - Memiliki Homepage Sendiri {DONE}
 - Login Admin {DONE}
-- Membuat Tabel Daftar User {ON Process} 
+- Membuat Tabel Daftar User {DONE 75%} 
 - Tiap Thread Memiliki Tombol Hapus (Hapus Id_thread)
 - Dapat Menghapus Thread ( Sebuah Thread dalam Sql Memiliki Id Thread Masing2)
-- Hapus Profil User ( Id User )
-- Edit Profil Admin (Nama Alamat Foto No.Telp, dll)( Id Admin ) {ON Process}
+- Hapus Profil User ( Id User ) {DONE}
+- Edit Profil Admin (Nama Alamat Foto No.Telp, dll)( Id Admin ) {DONE}
 
 Crud (Create Read Update Edit) Sisi User ( Back End (Sql) ) {DONE}
 - Edit Profil Yg terdiri dari (Nama , No Telp , Foto Dll) {DONE}
